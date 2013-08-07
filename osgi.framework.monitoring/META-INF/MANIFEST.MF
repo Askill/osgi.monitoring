@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Monitoring
+Bundle-SymbolicName: osgi.framework.monitoring
+Bundle-Version: 1.0.0.qualifier
+Import-Package: org.osgi.framework;version="1.3.0",
+ org.osgi.framework.hooks.weaving;version="1.0.0",
+ javassist,
+ javassist.expr
+Export-Package: osgi.framework.monitoring.event;version="1.0.0",
+ osgi.framework.monitoring.event.filter;version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
